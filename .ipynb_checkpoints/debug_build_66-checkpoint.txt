@@ -1,0 +1,2 @@
+detoxis21_intolerance > (2770, 2):(693, 2)
+detoxis21_stereotype > (2770, 2):(693, 2)

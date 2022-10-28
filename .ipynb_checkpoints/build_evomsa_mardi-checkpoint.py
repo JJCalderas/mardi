@@ -42,7 +42,7 @@ df_samples.drop('Idx', inplace=True, axis=1)
 #df_samples.fillna("", inplace=True)
 #df_samples
 
-debug_file = 'debug_build_63.txt'
+debug_file = 'debug_build_66.txt'
 
 def process(fn):
 
@@ -145,7 +145,7 @@ for r in results:
 
 results_df = pd.DataFrame(data=clean_results, columns=['dataset', 'combina_1', 'train.shape', 'test.shape', 'f1', 'recall', 
                                                        'combinations', 'combina_2', 'train.shape', 'mean', 'std', 'min', 'max', 'scores_kfold' ])
-results_df.to_csv('results_full_63.csv')
+results_df.to_csv('results_full_66.csv')
 #results_df
 
 end = timer()
